@@ -22,7 +22,7 @@ import java.util.Stack;
 public class Brackets {
     public static void main(String[] args) {
        System.out.println(new Brackets().solution("[](){}"));
-     //System.out.println(new Brackets().solution("[(){}"));
+       System.out.println(new Brackets().solution("[(){}"));
     }
 
     private int solution(String s) {
